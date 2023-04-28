@@ -322,21 +322,27 @@ const Contenido = () => {
             import matplotlib.pyplot as plt
             <br></br><br></br>
             # Cargar el dataset diabetes
+            <br></br>
             diabetes = load_diabetes()
             <br></br><br></br>
             # Seleccionar la característica "age" como variable independiente (X)
+            <br></br>
             X = diabetes.data[:, np.newaxis, 2]
             <br></br><br></br>
             # Seleccionar la variable dependiente (y)
+            <br></br>
             y = diabetes.target
             <br></br><br></br>
             # Crear un modelo de regresión lineal
+            <br></br>
             reg = LinearRegression()
             <br></br><br></br>
             # Entrenar el modelo con los datos de edad
+            <br></br>
             reg.fit(X, y)
             <br></br>
             # Predecir los valores de la variable dependiente (y) con el modelo entrenado
+            <br></br>
             y_pred = reg.predict(X)
             <br></br>
             # Graficar los datos y la línea de regresión
