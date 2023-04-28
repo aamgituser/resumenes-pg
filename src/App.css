@@ -1,0 +1,113 @@
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.aside{
+  width: 20%;
+  height: 100vh;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  width: 80%;
+  border: 1px solid red;
+  margin-left: 20%;
+}
+
+.content__ins{
+  border: 1px solid black;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.marc{
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.coding{
+  border: 1px solid green;
+  margin: 5px 0;
+  padding: 10px 0;
+  width: 90%;
+  display: block;
+}
+
+/*Inicio*/
+.indx{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 9vh 0;
+}
+
+/*La idea general es que tengamos secciones que pueden ser*/
+
+/*cajas del inicio*/
+.box{
+  height: 150px;
+  width: 60%;
+  margin: 10px auto;
+  border: 1px solid green;
+  cursor: pointer;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+/*GENERALES*/
+
+
+
+@media screen and (max-width:750px) {
+  /*Contenidos generales*/
+  
+  .main{
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .aside{
+    height: 7.5vh;
+    width: 7.5vh;
+  }
+
+  .img{
+    width: 370px;
+    border: 1px solid red;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header_ia-content{
+    position: absolute;
+    left: -1000000vw;
+  }
+
+  .content{
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 10vh;
+    justify-content: center;
+  }
+  
+  .content__ins{
+    width: 90%;
+  }
+
+  .coding{
+    width: 100%;
+  }
+}
