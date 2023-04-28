@@ -72,6 +72,7 @@ const Contenido = () => {
             desviacion media absoluta {`(DMA)`}
           </p>
           <h2>Python</h2>
+          <p>Cosas importantes de python</p>
           <h2>Editores de codigo</h2>
           <p>
             Para el editor de codigo utilizaremos Google Colab ya que proporciona un entorno de edición de código en línea en forma de cuadernos de Jupyter Notebook. Los cuadernos de Jupyter Notebook son archivos interactivos que contienen código de programación, texto descriptivo y elementos multimedia, como imágenes y gráficos, todo en un solo documento
@@ -177,8 +178,12 @@ const Contenido = () => {
             #crea una matriz con el valor 8 en todas sus posiciones de dimension 2x2
           </code>
           
-
-
+          <h2>Pandas</h2>
+          <p>HS</p>
+          <h2>Scikit Learn</h2>
+          <p>
+            Scikit-learn es una biblioteca de aprendizaje automático para Python que proporciona una amplia gama de algoritmos y herramientas para tareas de minería y análisis de datos. Con Scikit-learn, los usuarios pueden aplicar técnicas de aprendizaje automático como clasificación, regresión, agrupamiento y reducción de dimensionalidad a sus datos de manera eficiente y fácil de usar. Scikit-learn es muy popular en la comunidad de Python debido a su facilidad de uso, documentación detallada y la gran cantidad de ejemplos y recursos disponibles.
+          </p>
           <h2>Machine Learning</h2>
         </div>
       </div>

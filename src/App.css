@@ -24,8 +24,8 @@
 }
 
 .content__ins{
-  border: 1px solid black;
-  width: 95%;
+  border: 1px solid green;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -35,11 +35,14 @@
 }
 
 .coding{
-  border: 1px solid green;
+  border: 1px solid rgba(255, 255, 255, 0.219);
   margin: 5px 0;
   padding: 10px 0;
   width: 90%;
   display: block;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /*Inicio*/
@@ -104,10 +107,10 @@
   }
   
   .content__ins{
-    width: 90%;
+    width: 95%;
   }
 
   .coding{
-    width: 100%;
+    width: 80%;
   }
 }
