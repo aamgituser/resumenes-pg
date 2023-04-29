@@ -1,3 +1,12 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: orange;
+}
+
 .main{
   width: 100%;
   display: flex;
@@ -14,7 +23,24 @@
   left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.aside__content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside__content-submenu{
+  width: 90%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+  font-size: 17px;
+  font-weight: 300;
 }
 
 .content{
@@ -24,7 +50,6 @@
 }
 
 .content__ins{
-  border: 1px solid green;
   width: 90%;
   margin: 0 auto;
 }
@@ -94,7 +119,11 @@
     object-position: center;
   }
 
-  .header_ia-content{
+  .video{
+    width: 360px;
+  }
+
+  .aside__content{
     position: absolute;
     left: -1000000vw;
   }
